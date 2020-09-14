@@ -12,10 +12,8 @@ function pubsub(project, topic, attr, data) {
     SpreadsheetApp.getUi().showSidebar(page);
     
   } else {
-    var url = 'https://pubsub.googleapis.com/v1/projects/tactile-alloy-266213/topics/fitness:publish'
-    //projects/tactile-alloy-266213/topics/fitness
-    //.replace("[TOPIC]", fitness)
-    //.replace("[PROJECT]", tactile-alloy-266213);
+    var url = 'https://pubsub.googleapis.com/v1/'Your Topic link':publish'
+    
     
     // The data attribute is of 'string' type and needs to be base64 Encoded!
     var body = {
@@ -23,7 +21,7 @@ function pubsub(project, topic, attr, data) {
         {
           attributes:attr,
           data:Utilities.base64Encode(data) 
-          //data: Utilities.base64Encode(data) 
+         
         }]
     };    
     
