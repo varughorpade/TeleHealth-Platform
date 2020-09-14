@@ -1,6 +1,6 @@
 // add your Google API Project OAuth client ID and client secret here
-var ClientID = '811362066534-59d80vjc89u4afjgks0herd2cu4j5q0p.apps.googleusercontent.com';
-var ClientSecret = 'Ota-e6kNR5ZlkdXioCPFOCjZ';
+var ClientID = 'Your ClientID';
+var ClientSecret = 'Your SecretKEY';
 
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
